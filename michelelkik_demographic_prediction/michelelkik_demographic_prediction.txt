@@ -1,0 +1,26 @@
+1. Dataset Exploration
+
+2. Data Preprocessing: Dropping Missing Values
+2.1 Dropping "age" and "sex" informtion to predict them based on the keywords
+2.2 Number of rows after dropping NaN values
+
+3. Feature Extraction: BoW Approach for the Training Set
+3.1 Removing the following columns: ID, Age, Sex
+3.2 Function for "keywords" transformation
+3.3 Applying the respective functions to obtain the "class" attribute
+3.4 Bag of Words Scoring using TF-IDF
+
+4. Partitioning: Split dataset into Train and Test Sets
+
+5. Classification: Fitting Multinomial Naive Bayes to the Training Set
+
+6. NB Model Evaluation: Cross Validation using k-fold
+6.1 Cross Validation Accuracy
+
+7. Test Set Prediction
+7.1 Feature Extraction: BoW Approach for Test Set
+7.2 Attribute Prediction: "prediction" = P("class")
+7.3 Equating "sex" to "prediction"
+7.4 Predicted Dataset: Final Format
+
+8. Exporting Predicted Dataset as CSV
